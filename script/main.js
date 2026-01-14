@@ -237,16 +237,5 @@ const animationTimeline = () => {
             repeatDelay: 1.4,
         },
         0.3
-    )
-    .to(".six", 0.5, {
-        opacity: 0,
-        y: 30,
-        zIndex: "-1",
-    });
-
-    // Restart Animation on click
-    const replyBtn = document.getElementById("replay");
-    replyBtn.addEventListener("click", () => {
-        tl.restart();
-    });
+    );
 }
